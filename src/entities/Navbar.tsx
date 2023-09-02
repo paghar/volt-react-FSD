@@ -5,7 +5,7 @@ import { faBell, faCog, faEnvelopeOpen, faSearch, faSignOutAlt, faUserShield } f
 import { faUserCircle } from "@fortawesome/free-regular-svg-icons";
 import { Row, Col, Nav, Form, Image, Navbar, Dropdown, Container, ListGroup, InputGroup } from '@themesberg/react-bootstrap';
 
-import NOTIFICATIONS_DATA from "../data/notifications";
+import NOTIFICATIONS_DATA from "../shared/notifications";
 import Profile3 from "../app/assets/img/team/profile-picture-3.jpg";
 
 

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row, Table, Image, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
+import Documentation from "../../entities/Documentation";
 
 import USAFlag from "../../app/assets/img/flags/united-states-of-america.svg";
 import CanadaFlag from "../../app/assets/img/flags/canada.svg";

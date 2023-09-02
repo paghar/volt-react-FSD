@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { Breadcrumb } from '@themesberg/react-bootstrap';
 
-import { PageTrafficTable, RankingTable } from "../../components/Tables";
+import { PageTrafficTable, RankingTable } from "../../entities/Tables";
 
 
 export default () => {

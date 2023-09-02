@@ -7,7 +7,7 @@ import "./scss/volt.scss";
 import "react-datetime/css/react-datetime.css";
 
 import HomePage from "../pages/HomePage";
-import ScrollToTop from "../components/ScrollToTop";
+import ScrollToTop from "../entities/ScrollToTop";
 
 
 const App = () => {

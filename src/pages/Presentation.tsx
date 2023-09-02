@@ -5,7 +5,7 @@ import { faBootstrap, faGithub, faJs, faReact, faSass } from "@fortawesome/free-
 import { Col, Row, Card, Image, Button, Container, ListGroup, Tooltip, OverlayTrigger, Form, Navbar, Nav, Badge } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Code from "../components/CodeEditor";
+import Code from "../entities/CodeEditor";
 import GitHubButton from 'react-github-btn';
 
 import { Routes } from "./routes";
@@ -20,8 +20,8 @@ import BS5IllustrationsImg from "../app/assets/img/illustrations/bs5-illustratio
 import BS5Logo from "../app/assets/img/technologies/bootstrap-5-logo.svg";
 import ReactLogo from "../app/assets/img/technologies/react-logo.svg";
 
-import pages from "../data/pages";
-import features from "../data/features";
+import pages from "../shared/pages";
+import features from "../shared/features";
 
 export default () => {
   const PagePreview = (props) => {

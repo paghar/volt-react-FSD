@@ -2,7 +2,7 @@
 import React from 'react';
 import { Col, Row, Container, Breadcrumb } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
+import Documentation from "../../entities/Documentation";
 
 export default () => {
   return (

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap } from '@fortawesome/free-brands-svg-icons';
 import { Col, Row, Card, Toast, Button, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
+import Documentation from "../../entities/Documentation";
 
 
 export default () => {
