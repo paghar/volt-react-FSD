@@ -6,8 +6,8 @@ import { Col, Row, Card, Image, Button, Container } from '@themesberg/react-boot
 
 import { Link } from 'react-router-dom';
 
-import { Routes } from "../../routes";
-import NotFoundImage from "../../assets/img/illustrations/404.svg";
+import { Routes } from "../routes";
+import NotFoundImage from "../../app/assets/img/illustrations/404.svg";
 
 
 export default () => {

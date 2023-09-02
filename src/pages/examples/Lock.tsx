@@ -5,9 +5,9 @@ import { faAngleLeft, faEye, faUnlockAlt } from "@fortawesome/free-solid-svg-ico
 import { Col, Row, Form, Card, Image, Button, Container, InputGroup } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import { Routes } from "../../routes";
-import BgImage from "../../assets/img/illustrations/signin.svg";
-import Profile3 from "../../assets/img/team/profile-picture-3.jpg";
+import { Routes } from "../routes";
+import BgImage from "../../app/assets/img/illustrations/signin.svg";
+import Profile3 from "../../app/assets/img/team/profile-picture-3.jpg";
 
 export default () => {
   const [showPassword, setShowPassword] = useState(false);

@@ -2,12 +2,12 @@
 import { faGoogle, faTwitter, faYahoo, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faGlobeEurope, } from '@fortawesome/free-solid-svg-icons';
 
-import USAFlag from '../assets/img/flags/united-states-of-america.svg';
-import CanadaFlag from '../assets/img/flags/canada.svg';
-import GermanyFlag from '../assets/img/flags/germany.svg';
-import FranceFlag from '../assets/img/flags/france.svg';
-import JapanFlag from '../assets/img/flags/japan.svg';
-import ItalyFlag from '../assets/img/flags/italy.svg';
+import USAFlag from '../app/assets/img/flags/united-states-of-america.svg';
+import CanadaFlag from '../app/assets/img/flags/canada.svg';
+import GermanyFlag from '../app/assets/img/flags/germany.svg';
+import FranceFlag from '../app/assets/img/flags/france.svg';
+import JapanFlag from '../app/assets/img/flags/japan.svg';
+import ItalyFlag from '../app/assets/img/flags/italy.svg';
 
 
 const pageVisits = [
