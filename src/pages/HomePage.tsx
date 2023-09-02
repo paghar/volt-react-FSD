@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Route, Switch, Redirect } from "react-router-dom";
-import { Routes } from "../routes";
+import { Routes } from "./routes";
 
 // pages
 import Presentation from "./Presentation";
@@ -27,10 +27,10 @@ import DocsBuild from "./documentation/DocsBuild";
 import DocsChangelog from "./documentation/DocsChangelog";
 
 // components
-import Sidebar from "../components/Sidebar";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Preloader from "../components/Preloader";
+import Sidebar from "../entities/Sidebar";
+import Navbar from "../entities/Navbar";
+import Footer from "../entities/Footer";
+import Preloader from "../entities/Preloader";
 
 import Accordion from "./components/Accordion";
 import Alerts from "./components/Alerts";
