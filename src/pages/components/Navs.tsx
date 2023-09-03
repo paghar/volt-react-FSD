@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faComments, faSun, faUserCircle } from '@fortawesome/free-regular-svg-icons';

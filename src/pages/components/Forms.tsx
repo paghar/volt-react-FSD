@@ -1,4 +1,3 @@
-import React from 'react';
 import moment from "moment-timezone";
 import Datetime from "react-datetime";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

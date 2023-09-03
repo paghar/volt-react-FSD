@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Row, Col, Card, Container, Alert } from '@themesberg/react-bootstrap';
 
 import Code from "../../entities/Code";

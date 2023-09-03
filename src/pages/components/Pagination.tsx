@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDoubleLeft, faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { Col, Row, Card, Container, Pagination } from '@themesberg/react-bootstrap';
