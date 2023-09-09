@@ -73,6 +73,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.0.4",
     "vite": "^4.4.9",
     "vite-plugin-svgr": "^3.2.0",
