@@ -8,17 +8,17 @@ import { HashLink } from 'react-router-hash-link';
 import Code from "../components/CodeEditor";
 import GitHubButton from 'react-github-btn';
 
-import { Routes } from "../routes";
-import ThemesbergLogoIcon from "../assets/img/themesberg.svg";
-import ThemesbergLogo from "../assets/img/themesberg-logo.svg";
-import MockupPresentation from "../assets/img/mockup-presentation.png";
-import ReactHero from "../assets/img/technologies/react-hero-logo.svg";
-import MapboxImg from "../assets/img/mockup-map-presentation.png";
-import CalendarImg from "../assets/img/mockup-calendar-presentation.png";
-import ReactMockupImg from "../assets/img/react-mockup.png";
-import BS5IllustrationsImg from "../assets/img/illustrations/bs5-illustrations.svg";
-import BS5Logo from "../assets/img/technologies/bootstrap-5-logo.svg";
-import ReactLogo from "../assets/img/technologies/react-logo.svg";
+import { Routes } from "./routes";
+import ThemesbergLogoIcon from "../app/assets/img/themesberg.svg";
+import ThemesbergLogo from "../app/assets/img/themesberg-logo.svg";
+import MockupPresentation from "../app/assets/img/mockup-presentation.png";
+import ReactHero from "../app/assets/img/technologies/react-hero-logo.svg";
+import MapboxImg from "../app/assets/img/mockup-map-presentation.png";
+import CalendarImg from "../app/assets/img/mockup-calendar-presentation.png";
+import ReactMockupImg from "../app/assets/img/react-mockup.png";
+import BS5IllustrationsImg from "../app/assets/img/illustrations/bs5-illustrations.svg";
+import BS5Logo from "../app/assets/img/technologies/bootstrap-5-logo.svg";
+import ReactLogo from "../app/assets/img/technologies/react-logo.svg";
 
 import pages from "../data/pages";
 import features from "../data/features";

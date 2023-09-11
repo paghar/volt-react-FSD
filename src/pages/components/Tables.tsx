@@ -6,12 +6,12 @@ import { Col, Row, Table, Image, Container } from '@themesberg/react-bootstrap';
 
 import Documentation from "../../components/Documentation";
 
-import USAFlag from "../../assets/img/flags/united-states-of-america.svg";
-import CanadaFlag from "../../assets/img/flags/canada.svg";
-import UKFlag from "../../assets/img/flags/united-kingdom.svg";
-import FranceFlag from "../../assets/img/flags/france.svg";
-import JapanFlag from "../../assets/img/flags/japan.svg";
-import GermanyFlag from "../../assets/img/flags/germany.svg";
+import USAFlag from "../../app/assets/img/flags/united-states-of-america.svg";
+import CanadaFlag from "../../app/assets/img/flags/canada.svg";
+import UKFlag from "../../app/assets/img/flags/united-kingdom.svg";
+import FranceFlag from "../../app/assets/img/flags/france.svg";
+import JapanFlag from "../../app/assets/img/flags/japan.svg";
+import GermanyFlag from "../../app/assets/img/flags/germany.svg";
 
 
 export default () => {
