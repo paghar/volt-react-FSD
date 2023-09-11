@@ -5,7 +5,7 @@ import { faTachometerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faComments, faSun, faUserCircle } from '@fortawesome/free-regular-svg-icons';
 import { Nav, Row, Col, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
+import Documentation from "../../entities/Documentation";
 
 
 export default () => (

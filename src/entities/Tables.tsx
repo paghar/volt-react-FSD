@@ -6,9 +6,9 @@ import { Col, Row, Nav, Card, Image, Button, Table, Dropdown, ProgressBar, Pagin
 import { Link } from 'react-router-dom';
 
 import { Routes } from "../pages/routes";
-import { pageVisits, pageTraffic, pageRanking } from "../data/tables";
-import transactions from "../data/transactions";
-import commands from "../data/commands";
+import { pageVisits, pageTraffic, pageRanking } from "../shared/tables";
+import transactions from "../shared/transactions";
+import commands from "../shared/commands";
 
 const ValueChange = ({ value, suffix }) => {
   const valueIcon = value < 0 ? faAngleDown : faAngleUp;

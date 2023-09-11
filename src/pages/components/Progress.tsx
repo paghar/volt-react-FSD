@@ -2,8 +2,8 @@
 import React from 'react';
 import { Col, Row, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
-import Progress from "../../components/Progress";
+import Documentation from "../../entities/Documentation";
+import Progress from "../../entities/Progress";
 
 export default () => (
   <article>

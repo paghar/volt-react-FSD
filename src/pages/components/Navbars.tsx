@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { Nav, Row, Col, Card, Image, Navbar, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "../../components/Documentation";
+import Documentation from "../../entities/Documentation";
 import ReactLogoPrimary from "../../app/assets/img/technologies/react-logo-primary.svg";
 import ReactLogoTransparent from "../../app/assets/img/technologies/react-logo-transparent.svg";
 

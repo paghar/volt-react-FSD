@@ -2,8 +2,8 @@
 import React from 'react';
 import { Row, Col, Container } from '@themesberg/react-bootstrap';
 
-import AccordionComponent from "../../components/AccordionComponent";
-import Documentation from "../../components/Documentation";
+import AccordionComponent from "../../entities/AccordionComponent";
+import Documentation from "../../entities/Documentation";
 
 export default () => (
   <article>

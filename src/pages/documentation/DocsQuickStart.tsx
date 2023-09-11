@@ -2,7 +2,7 @@
 import React from 'react';
 import { Row, Col, Card, Container, Alert } from '@themesberg/react-bootstrap';
 
-import Code from "../../components/Code";
+import Code from "../../entities/Code";
 
 export default () => (
   <Container className="px-0">

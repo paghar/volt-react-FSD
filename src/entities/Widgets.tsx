@@ -9,7 +9,7 @@ import { CircleChart, BarChart, SalesValueChart, SalesValueChartphone } from "./
 import Profile1 from "../app/assets/img/team/profile-picture-1.jpg";
 import ProfileCover from "../app/assets/img/profile-cover.jpg";
 
-import teamMembers from "../data/teamMembers";
+import teamMembers from "../shared/teamMembers";
 
 
 export const ProfileCardWidget = () => {

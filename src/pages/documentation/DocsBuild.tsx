@@ -2,7 +2,7 @@
 import React from 'react';
 import { Row, Col, Card, Container } from '@themesberg/react-bootstrap';
 
-import { CommandsTable } from '../../components/Tables';
+import { CommandsTable } from '../../entities/Tables';
 
 export default () => (
   <Container className="px-0">
