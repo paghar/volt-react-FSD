@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Image } from '@themesberg/react-bootstrap';
 
 import ReactLogo from "../app/assets/img/technologies/react-logo-transparent.svg";

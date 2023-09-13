@@ -1,5 +1,4 @@
 
-import React from 'react';
 import { Col, Row, Badge, Button, Container } from '@themesberg/react-bootstrap';
 
 import Documentation from "../../entities/Documentation";

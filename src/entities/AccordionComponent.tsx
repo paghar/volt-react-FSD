@@ -1,4 +1,3 @@
-import React from 'react';
 import { Card, Accordion } from '@themesberg/react-bootstrap';
 
 export default (props) => {
