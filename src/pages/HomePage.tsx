@@ -8,14 +8,14 @@ import Upgrade from "./Upgrade";
 import DashboardOverview from "./dashboard/DashboardOverview";
 import Transactions from "./Transactions";
 import Settings from "./Settings";
-import BootstrapTables from "./tables/BootstrapTables";
-import Signin from "./examples/Signin";
-import Signup from "./examples/Signup";
-import ForgotPassword from "./examples/ForgotPassword";
-import ResetPassword from "./examples/ResetPassword";
-import Lock from "./examples/Lock";
-import NotFoundPage from "./examples/NotFound";
-import ServerError from "./examples/ServerError";
+import BootstrapTables from "../entities/BootstrapTables";
+import Signin from "./auth/Signin";
+import Signup from "./auth/Signup";
+import ForgotPassword from "./auth/ForgotPassword";
+import ResetPassword from "./auth/ResetPassword";
+import Lock from "./auth/Lock";
+import NotFoundPage from "./auth/NotFound";
+import ServerError from "./auth/ServerError";
 
 // documentation pages
 import DocsOverview from "./documentation/DocsOverview";
