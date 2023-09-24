@@ -1,13 +1,9 @@
-
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row, Image, Button, Container } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
-
 import { Routes } from "../routes";
 import ErrorImage from "../../app/assets/img/illustrations/500.svg";
-
 
 export default () => {
   return (
@@ -18,10 +14,10 @@ export default () => {
             <Col xs={12} lg={5} className="order-2 order-lg-1 text-center text-lg-left">
               <h1 className="text-primary mt-5">
                 Something has gone <span className="fw-bolder">seriously</span> wrong
-          </h1>
+              </h1>
               <p className="lead my-4">
                 It's always time for a coffee break. We should be back by the time you finish your coffee.
-          </p>
+              </p>
               <Button as={Link} variant="primary" className="animate-hover" to={Routes.DashboardOverview.path}>
                 <FontAwesomeIcon icon={faChevronLeft} className="animate-left-3 me-3 ms-2" />
                 Go back home
