@@ -1,18 +1,13 @@
-
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown, faAngleUp } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row, Table, Image, Container } from '@themesberg/react-bootstrap';
-
 import Documentation from "../../entities/Documentation";
-
 import USAFlag from "../../app/assets/img/flags/united-states-of-america.svg";
 import CanadaFlag from "../../app/assets/img/flags/canada.svg";
 import UKFlag from "../../app/assets/img/flags/united-kingdom.svg";
 import FranceFlag from "../../app/assets/img/flags/france.svg";
 import JapanFlag from "../../app/assets/img/flags/japan.svg";
 import GermanyFlag from "../../app/assets/img/flags/germany.svg";
-
 
 export default () => {
   return (

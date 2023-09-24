@@ -1,5 +1,4 @@
 
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row, Form, Card, Button, Container, InputGroup } from '@themesberg/react-bootstrap';
@@ -17,7 +16,7 @@ export default () => {
             <p className="text-center">
               <Card.Link as={Link} to={Routes.Signin.path} className="text-gray-700">
                 <FontAwesomeIcon icon={faAngleLeft} className="me-2" /> Back to sign in
-            </Card.Link>
+              </Card.Link>
             </p>
             <Col xs={12} className="d-flex align-items-center justify-content-center">
               <div className="signin-inner my-3 my-lg-0 bg-white shadow-soft border rounded border-light p-4 p-lg-5 w-100 fmxw-500">

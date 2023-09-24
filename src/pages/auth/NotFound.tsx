@@ -1,14 +1,9 @@
-
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { Col, Row, Card, Image, Button, Container } from '@themesberg/react-bootstrap';
-
 import { Link } from 'react-router-dom';
-
 import { Routes } from "../routes";
 import NotFoundImage from "../../app/assets/img/illustrations/404.svg";
-
 
 export default () => {
   return (
@@ -27,7 +22,7 @@ export default () => {
                 <p className="lead my-4">
                   Oops! Looks like you followed a bad link. If you think this is a
                   problem with us, please tell us.
-            </p>
+                </p>
                 <Button as={Link} variant="primary" className="animate-hover" to={Routes.DashboardOverview.path}>
                   <FontAwesomeIcon icon={faChevronLeft} className="animate-left-3 me-3 ms-2" />
                   Go back home
