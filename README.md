@@ -19,3 +19,7 @@ There are currently four layer (top to bottom) in Volt-React-FSD application.
     features and widgets.
  4. shared — reusable functionality, detached from the specifics of the
     project/business.
+
+## Reference
+[Feature-Sliced Design(FSD) website](https://feature-sliced.design/) 
+[More FSD example](https://feature-sliced.design/examples)
