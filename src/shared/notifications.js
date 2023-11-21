@@ -1,9 +1,9 @@
 
-import Profile1 from "../app/assets/img/team/profile-picture-1.jpg"
-import Profile2 from "../app/assets/img/team/profile-picture-2.jpg"
-import Profile3 from "../app/assets/img/team/profile-picture-3.jpg"
-import Profile4 from "../app/assets/img/team/profile-picture-4.jpg"
-import Profile5 from "../app/assets/img/team/profile-picture-5.jpg"
+import Profile1 from "@/app/assets/img/team/profile-picture-1.jpg"
+import Profile2 from "@/app/assets/img/team/profile-picture-2.jpg"
+import Profile3 from "@/app/assets/img/team/profile-picture-3.jpg"
+import Profile4 from "@/app/assets/img/team/profile-picture-4.jpg"
+import Profile5 from "@/app/assets/img/team/profile-picture-5.jpg"
 
 export default [
     {

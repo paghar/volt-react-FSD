@@ -1,7 +1,7 @@
 
 import { Image } from '@themesberg/react-bootstrap';
 
-import ReactLogo from "../app/assets/img/technologies/react-logo-transparent.svg";
+import ReactLogo from "@/app/assets/img/technologies/react-logo-transparent.svg";
 
 export default (props) => {
 
