@@ -4,7 +4,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Card, Button, Tooltip, OverlayTrigger } from '@themesberg/react-bootstrap';
 import Highlight, { Prism } from 'prism-react-renderer';
 
-import themeStyle from "../app/assets/syntax-themes/ghcolors.json";
+import themeStyle from "@/app/assets/syntax-themes/ghcolors.json";
 
 export default (props) => {
   const { code = "", language = "jsx" } = props;
