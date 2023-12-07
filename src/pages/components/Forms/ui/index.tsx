@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
 import { Col, Row, Card, Form, Container, InputGroup } from '@themesberg/react-bootstrap';
 
-import Documentation from "@/entities/Documentation";
+import Documentation from "@/widgets/Documentation";
 
 export default () => {
   return (

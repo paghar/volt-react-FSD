@@ -1,8 +1,8 @@
 
 import { Col, Row, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "@/entities/Documentation";
-import Progress from "@/entities/Progress";
+import Documentation from "@/widgets/Documentation";
+import Progress from "@/widgets/Progress";
 
 export default () => (
   <article>

@@ -8,7 +8,7 @@ import Upgrade from "../Upgrade/Upgrade";
 import DashboardOverview from "../dashboard/DashboardOverview/ui";
 import Transactions from "../Transactions/Transactions";
 import Settings from "../Settings/Settings";
-import BootstrapTables from "@/entities/BootstrapTables";
+import BootstrapTables from "@/widgets/BootstrapTables";
 import Signin from "../auth/Signin/ui";
 import Signup from "../auth/Signup/ui";
 import ForgotPassword from "../auth/ForgotPassword/ui";
@@ -27,10 +27,10 @@ import DocsBuild from "../documentation/DocsBuild/ui";
 import DocsChangelog from "../documentation/DocsChangelog/ui";
 
 // components
-import Sidebar from "@/entities/Sidebar";
-import Navbar from "@/entities/Navbar";
-import Footer from "@/entities/Footer";
-import Preloader from "@/entities/Preloader";
+import Sidebar from "@/widgets/Sidebar";
+import Navbar from "@/widgets/Navbar";
+import Footer from "@/widgets/Footer";
+import Preloader from "@/widgets/Preloader";
 
 import Accordion from "../components/Accordion/ui";
 import Alerts from "../components/Alerts/ui";

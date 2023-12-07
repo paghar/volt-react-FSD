@@ -4,7 +4,7 @@ import { faBootstrap, faGithub, faJs, faReact, faSass } from "@fortawesome/free-
 import { Col, Row, Card, Image, Button, Container, ListGroup, Tooltip, OverlayTrigger, Form, Navbar, Nav, Badge } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
-import Code from "@/entities/CodeEditor";
+import Code from "@/widgets/CodeEditor";
 import GitHubButton from 'react-github-btn';
 
 import { Routes } from "@/pages/routes";
