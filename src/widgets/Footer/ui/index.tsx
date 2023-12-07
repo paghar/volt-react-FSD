@@ -1,7 +1,7 @@
 import moment from "moment-timezone";
 import { Row, Col, Card, OverlayTrigger, Tooltip, Image, Button } from '@themesberg/react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCogs, faDownload, faRocket } from "@fortawesome/free-solid-svg-icons";
+import { faCogs, faDownload } from "@fortawesome/free-solid-svg-icons";
 import BS5Logo from "@/app/assets/img/technologies/bootstrap-5-logo.svg";
 import ReactLogo from "@/app/assets/img/technologies/react-logo.svg";
 import LaravelLogo from "@/app/assets/img/technologies/laravel-logo.svg";

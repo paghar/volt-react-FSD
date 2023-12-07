@@ -3,7 +3,7 @@ import { faLaptopCode, faPalette } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { Col, Row, Nav, Tab, Card, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "@/widgets/Documentation";
+import Documentation from "@/widgets/Documentation/ui";
 
 export default () => {
   return (

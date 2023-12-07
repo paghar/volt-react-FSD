@@ -1,7 +1,7 @@
 
 import { Row, Col, Card, Container, Alert } from '@themesberg/react-bootstrap';
 
-import Code from "@/widgets/Code";
+import Code from "@/widgets/Code/ui";
 
 export default () => (
   <Container className="px-0">

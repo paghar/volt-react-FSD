@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBoxOpen, faCartArrowDown, faChartPie, faChevronDown, faClipboard, faCommentDots, faFileAlt, faPlus, faRocket, faStore } from '@fortawesome/free-solid-svg-icons';
 import { Col, Row, Button, Dropdown } from '@themesberg/react-bootstrap';
-import { ChoosePhotoWidget, ProfileCardWidget } from "@/widgets/Widgets";
-import { GeneralInfoForm } from "@/widgets/Forms";
+import { ChoosePhotoWidget, ProfileCardWidget } from "@/widgets/Widgets/ui";
+import { GeneralInfoForm } from "@/widgets/Forms/ui";
 import Profile3 from "@/app/assets/img/team/profile-picture-3.jpg";
 
 export default () => {

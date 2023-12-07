@@ -3,12 +3,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown, faAngleUp, faChartArea, faChartBar, faChartLine, faFlagUsa, faFolderOpen, faGlobeEurope, faPaperclip, faUserPlus } from '@fortawesome/free-solid-svg-icons';
 import { faAngular, faBootstrap, faReact, faVuejs } from "@fortawesome/free-brands-svg-icons";
 import { Col, Row, Card, Image, Button, ListGroup, ProgressBar } from '@themesberg/react-bootstrap';
-import { CircleChart, BarChart, SalesValueChart, SalesValueChartphone } from "./Charts";
+import { CircleChart, BarChart, SalesValueChart, SalesValueChartphone } from "@/widgets/Charts/ui";
 
 import Profile1 from "@/app/assets/img/team/profile-picture-1.jpg";
 import ProfileCover from "@/app/assets/img/profile-cover.jpg";
 
-import teamMembers from "../shared/teamMembers";
+import teamMembers from "@/shared/teamMembers/lib";
 
 
 export const ProfileCardWidget = () => {
