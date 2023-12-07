@@ -1,7 +1,7 @@
 
 import { Col, Row, Button, Tooltip, Container, OverlayTrigger } from '@themesberg/react-bootstrap';
 
-import Documentation from "@/widgets/Documentation";
+import Documentation from "@/widgets/Documentation/ui";
 
 
 export default () => {

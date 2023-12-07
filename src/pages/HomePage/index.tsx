@@ -4,11 +4,11 @@ import { Routes } from "@/pages/routes";
 
 // pages
 import Presentation from "../Presentation/Presentation";
-import Upgrade from "../Upgrade/Upgrade";
+import Upgrade from "../Upgrade/ui/Upgrade";
 import DashboardOverview from "../dashboard/DashboardOverview/ui";
-import Transactions from "../Transactions/Transactions";
-import Settings from "../Settings/Settings";
-import BootstrapTables from "@/widgets/BootstrapTables";
+import Transactions from "../Transactions/ui/Transactions";
+import Settings from "../Settings/ui/Settings";
+import BootstrapTables from "@/widgets/BootstrapTables/ui";
 import Signin from "../auth/Signin/ui";
 import Signup from "../auth/Signup/ui";
 import ForgotPassword from "../auth/ForgotPassword/ui";
@@ -27,10 +27,10 @@ import DocsBuild from "../documentation/DocsBuild/ui";
 import DocsChangelog from "../documentation/DocsChangelog/ui";
 
 // components
-import Sidebar from "@/widgets/Sidebar";
-import Navbar from "@/widgets/Navbar";
-import Footer from "@/widgets/Footer";
-import Preloader from "@/widgets/Preloader";
+import Sidebar from "@/widgets/Sidebar/ui";
+import Navbar from "@/widgets/Navbar/ui";
+import Footer from "@/widgets/Footer/ui";
+import Preloader from "@/widgets/Preloader/ui";
 
 import Accordion from "../components/Accordion/ui";
 import Alerts from "../components/Alerts/ui";

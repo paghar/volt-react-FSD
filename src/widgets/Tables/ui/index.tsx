@@ -4,10 +4,10 @@ import { faAngleDown, faAngleUp, faArrowDown, faArrowUp, faEdit, faEllipsisH, fa
 import { Col, Row, Nav, Card, Image, Button, Table, Dropdown, ProgressBar, Pagination, ButtonGroup } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import { Routes } from "../pages/routes";
-import { pageVisits, pageTraffic, pageRanking } from "../shared/tables";
-import transactions from "../shared/transactions";
-import commands from "../shared/commands";
+import { Routes } from "@/pages/routes";
+import { pageVisits, pageTraffic, pageRanking } from "@/shared/tables/lib";
+import transactions from "@/shared/transactions/lib";
+import commands from "@/shared/commands/lib";
 
 const ValueChange = ({ value, suffix }) => {
   const valueIcon = value < 0 ? faAngleDown : faAngleUp;

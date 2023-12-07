@@ -5,7 +5,7 @@ import { Col, Row, Card, Button, Tooltip, OverlayTrigger } from '@themesberg/rea
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons';
-import Code from "./Code";
+import Code from "@/widgets/Code/ui";
 
 import themeStyle from "@/app/assets/syntax-themes/ghcolors.json";
 

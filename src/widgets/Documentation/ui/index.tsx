@@ -1,7 +1,7 @@
 
 import { Row, Col } from '@themesberg/react-bootstrap';
 
-import CodeEditor from "../CodeEditor";
+import CodeEditor from "@/widgets/CodeEditor/ui";
 
 export default (props) => {
   const { title, description, example = null, imports = null, scope = {}, maxHeight = null } = props;

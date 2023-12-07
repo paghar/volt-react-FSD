@@ -1,8 +1,8 @@
 
 import { Row, Col, Container } from '@themesberg/react-bootstrap';
 
-import AccordionComponent from "@/widgets/AccordionComponent";
-import Documentation from "@/widgets/Documentation";
+import AccordionComponent from "@/widgets/AccordionComponent/ui";
+import Documentation from "@/widgets/Documentation/ui";
 
 export default () => (
   <article>

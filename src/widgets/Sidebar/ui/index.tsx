@@ -8,7 +8,7 @@ import { faBook, faBoxOpen, faChartPie, faCog, faFileAlt, faHandHoldingUsd, faSi
 import { Nav, Badge, Image, Button, Dropdown, Accordion, Navbar } from '@themesberg/react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import { Routes } from "../pages/routes";
+import { Routes } from "@/pages/routes";
 import ThemesbergLogo from "@/app/assets/img/themesberg.svg";
 import ReactHero from "@/app/assets/img/technologies/react-hero-logo.svg";
 import ProfilePicture from "@/app/assets/img/team/profile-picture-3.jpg";
