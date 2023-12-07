@@ -1,7 +1,7 @@
 
 import { Col, Row, Badge, Button, Container } from '@themesberg/react-bootstrap';
 
-import Documentation from "@/entities/Documentation";
+import Documentation from "@/widgets/Documentation";
 
 
 export default () => (
